@@ -12,7 +12,7 @@ cTime = 0
 
 def draw(mypoints):
     for point in mypoints:
-        cv.circle(result, (point[0], point[1]), 10, (0, 255, 0), cv.FILLED)
+        cv.circle(result, (point[0], point[1]), 5, (0, 255, 0), cv.FILLED)
 
 
 newpoints = []
